@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Railfans Malang Community</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
+    header {
+  position: relative;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('gambar/sepur1.jpeg') center/cover no-repeat;
+  filter: blur(6px);
+  transform: scale(1.1);
+  z-index: 0;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+header * {
+  position: relative;
+  z-index: 2;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+    section { padding: 20px; margin: 10px; background: white; border-radius: 10px; }
+    h2 { color: #333; }
+    ul { padding-left: 20px; }
+    .members { display: flex; gap: 15px; flex-wrap: wrap; }
+    .member { text-align: center; }
+    img { max-width: 150px; border-radius: 10px; }
+    footer { text-align: center; padding: 15px; background: #222; color: white; }
+    a { color: blue; }
+
+    #loginPage {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+    }
+
+    #loginBox {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+      width: 300px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    input {
+      width: 90%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      width: 95%;
+      padding: 10px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 8px;
+      background: #667eea;
+      color: white;
+      cursor: pointer;
+    }
+
+    #mainContent { display: none; }
+  </style>
+</head>
+<body>
+    
+<div id="loginPage">
+  <form id="loginBox">
+    <h2>Login Komunitas</h2>
+    <p>Login untuk melihat main content</p>
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <button type="submit">Masuk</button>
+  </form>
+</div>
+
+<div id="mainContent">
+<header>
+  <h1>Railfans Malang Community</h1>
+</header>
+
+<section>
+  <h2>Deskripsi</h2>
+  <p>#gawokgantengpacarnyaaru</p>
+  <p>#chloemcqueensophienimiyuapunyadino</p>
+  <p>#nandapacarnyanoelle</p>
+  <p>#ariealwayswithriceshower</p>
+  <p>#lahnanandnikon</p>
+  <p>#plerrgapeduli:v</p>
+  <p>#plerrgapeduli:3</p>
+  <p>#plerrpeduli:3</p>
+  <p>#plerrsangatpedulii:3</p>
+  <p>#dhohok :P</p>
+</section>
+
+<section>
+  <h2>Rules</h2>
+  <ul>
+    <li>Tidak boleh berkata yang tidak pantas</li>
+    <li>Punya waifu/husbu (opsional)</li>
+    <li>Bisa hunting kapan saja (opsional sihh)</li>
+    <li>Tidak penting 1X lihat saja (ada rekan yang kehabisan penyimpanan)</li>
+    <li>DILARANG KULUK KULUK</li>
+    <li>JIKA MEMBAHAS SELAIN PERKETAPIAN HARUS MENGGUNAKAN "#OOT"</li>  
+</ul>
+</section>
+
+<section>
+  <h2>List Member</h2>
+  <ul>
+    <li>Arie Melek</li>
+    <li>Gawok nasgor</li>
+    <li>Lahnan.php</li>
+    <li>Dino sesepuh Trainzz</li>
+    <li>Aryak suaminya Takanashi Hoshino</li>
+    <li>Azzam pler</li>
+    <li>Jose Yeager AOT</li>
+    <li>Fian info addons free</li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Foto Member</h2>
+  <div class="members">
+    <div class="member">
+      <img src="https://via.placeholder.com/150" alt="Member 1">
+      <p>Ryo</p>
+    </div>
+    <div class="member">
+      <img src="https://via.placeholder.com/150" alt="Member 2">
+      <p>Arie</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Jadwal JPL 80/73</h2>
+  <p><a href="https://drive.google.com/file/d/1UvC0BZSh75c6VoEIYc4HR5cfTder7-pa/view?usp=drivesdk" target="_blank">Klik di sini</a></p>
+  <h2>GAPEKA '25 Malang</h2>
+  <p><a href="https://drive.google.com/file/d/1GjCeqygJgSGRC8AO4J6EmxzTK8-9FunI/view?usp=sharing" target="_blank">Klik di sini</a></p>
+  
+</section>
+
+<section>
+  <h2>Link</h2>
+  <p>WhatsApp group: <a href="https://chat.whatsapp.com/Bjyia1WY6KsGY9Cyxseebc?mode=gi_t" target="_blank">Klik di sini</a></p>
+  <p>WhatsApp channel community: <a href="https://whatsapp.com/channel/0029Vb6d1btE50UpXtArO51f" target="_blank">Klik di sini</a></p>
+</section>
+
+<footer>
+  <p>© 2026 Railfans Malang Community</p>
+</footer>
+</div>
+
+<script>
+  const PASSWORD = "RaifansMalangRaya2026";
+
+  document.getElementById("loginBox").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const username = document.querySelector('input[name="username"]').value;
+    const inputPassword = document.querySelector('input[name="password"]').value;
+
+    if (inputPassword === PASSWORD) {
+      document.getElementById("loginPage").style.display = "none";
+      document.getElementById("mainContent").style.display = "block";
+
+      const header = document.querySelector("header");
+      const welcome = document.createElement("p");
+      welcome.textContent = "Selamat datang, " + username;
+      header.appendChild(welcome);
+
+    } else {
+      alert("Password salah!");
+    }
+  });
+</script>
+
+</body>
+</html>
